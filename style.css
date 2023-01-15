@@ -124,6 +124,9 @@ a:visited {
   color: red;
 } */
 
+#blue {
+  color: blue;
+}
 ul:nth-child(3n) {
   color: blue;
 }
