@@ -96,6 +96,8 @@ img {
   color: var(--accent-color);
 }
 
+/* Секція герой */
+
 .hero {
   width: 1600px;
   height: 600px;
