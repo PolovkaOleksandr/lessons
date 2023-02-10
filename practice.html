@@ -15,12 +15,20 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="./style.css" />
+    <style>
+      ul,
+      ol {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        color: var(--text-color);
+      }
+    </style>
     <title>WebStudio</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header about">
       <nav class="nav">
         <a href="#" class="logo"><span class="logo--web">Web</span>Studio</a>
         <ul class="nav__list">
@@ -45,13 +53,9 @@
         </li>
       </ul>
     </header>
-
     <main>
-      <section class="hero">
-        <h1 class="hero--heading">Ефективні рішення для вашого бізнесу</h1>
-        <button class="hero--button">Замовити послугу</button>
-      </section>
       <section class="sectionPerevagi">
+        <div>asdasdas</div>
         <h2 class="sectionHeading">Конкурентні переваги</h2>
         <ul class="list">
           <li class="list-item">
@@ -82,68 +86,12 @@
           </li>
         </ul>
       </section>
-      <section class="abaut-us">
-        <h2 class="about-us__heading">Чим ми займаємося</h2>
-        <div class="img-block">
-          <img class="about-us__img" src="./assets/img/img1-opt.jpg" alt="Картинка" />
-          <img class="about-us__img" src="./assets/img/img2-opt.jpg" alt="Картинка" />
-          <img class="about-us__img" src="./assets/img/img3-opt.jpg" alt="Картинка" />
-        </div>
-      </section>
 
-      <section class="zxzxc">
-        <h2 id="1">Наша команда</h2>
-
-        <ul>
-          <li>
-            <div>
-              <img src="./assets/img/img4-opt.jpg" alt="Працівник" />
-              <p>Ігор Дем'яненко</p>
-              <p>Product Designer</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img src="./assets/img/img5-opt.jpg" alt="Працівник" />
-              <p>Ігор Дем'яненко</p>
-              <p>Product Designer</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img src="./assets/img/img6-opt.jpg" alt="Працівник" />
-              <p>Ігор Дем'яненко</p>
-              <p>Product Designer</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img src="./assets/img/img7-opt.jpg" alt="Працівник" />
-              <p>Ігор Дем'яненко</p>
-              <p>Product Designer</p>
-            </div>
-          </li>
-        </ul>
-
-        <button type="reset">очистити форму</button>
-        <button type="button">очистити форму</button>
-        <button type="submit">очистити форму</button>
+      <section style="display: flex">
+        <h2 class="section-title"></h2>
+        <p></p>
+        <p></p>
       </section>
     </main>
-    <footer>
-      <a href="#">WebStudio</a>
-      <address>
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
-      </address>
-
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
-    </footer>
   </body>
 </html>

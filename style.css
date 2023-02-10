@@ -48,6 +48,7 @@ a {
 a:hover {
   cursor: pointer;
   color: var(--accent-color);
+  transition: opacity 0.3;
 }
 
 img {
@@ -57,17 +58,52 @@ img {
   color: var(--text-color);
 }
 
+/* base  styles*/
+
+.container {
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+}
+
+.visually-hidden {
+  position: absolute;
+  pointer-events: none;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /* хедер */
 
 .header {
   display: flex;
-  width: 1600px;
+  /* width: 1600px; */
   height: 80px;
   align-items: center;
 }
 
+.about {
+  display: block;
+}
+
 .nav {
   display: flex;
+}
+
+.zxzxc {
+  color: #212121;
+}
+
+#1 {
+  color: red;
 }
 
 .nav__list {
@@ -109,6 +145,7 @@ img {
   color: var(--black);
 
   margin-right: 95px;
+  margin-left: 215px;
 }
 
 .logo--web {
@@ -136,9 +173,9 @@ img {
 /* Секція герой */
 
 .hero {
-  width: 1600px;
+  /* width: 1600px; */
   height: 600px;
-  display: flex;
+
   padding-top: 195px;
   padding-bottom: 285px;
 
@@ -194,6 +231,10 @@ img {
 
 .list {
   display: flex;
+}
+
+.list-item {
+  width: 270px;
 }
 
 .list-item:not(:last-child) {
@@ -266,3 +307,30 @@ img {
 .about-us__img:not(:last-child) {
   margin-right: 30px;
 }
+
+button[type='submit'] {
+  color: #000000;
+}
+li:nth-child(odd) {
+}
+
+li:nth-child(even) {
+}
+
+
+.text{
+color: red;
+}
+
+p{
+  color: black;
+}
+
+
+
+
+#2{
+
+}
+
+h1
