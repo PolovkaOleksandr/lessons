@@ -328,3 +328,14 @@ img {
 button[type='submit'] {
   color: #000000;
 }
+
+.navbar {
+  margin-left: 315px;
+  margin-right: 330px;
+  margin-top: 70px;
+}
+
+.nav--list {
+  display: flex;
+  justify-content: space-around;
+}
