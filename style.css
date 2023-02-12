@@ -123,6 +123,7 @@ img {
 
 .header__contacts {
   display: flex;
+  align-items: center;
 }
 
 .contact-link {
@@ -156,6 +157,10 @@ img {
   width: 72px;
   height: 16px;
 
+  padding-bottom: 30px;
+
+  position: relative;
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -164,6 +169,18 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--heading-color);
+}
+
+.bottom-line::after {
+  display: block;
+  content: '';
+  height: 4px;
+  width: 48px;
+  background-color: var(--accent-color);
+  border-radius: 2px;
+  /* position: absolute;
+  bottom: 0px;
+  left: 0px; */
 }
 
 .active-link {
