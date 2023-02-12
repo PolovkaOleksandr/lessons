@@ -333,9 +333,101 @@ button[type='submit'] {
   margin-left: 315px;
   margin-right: 330px;
   margin-top: 70px;
+  margin-bottom: 95px;
 }
 
 .nav--list {
   display: flex;
   justify-content: space-around;
+}
+
+.galery {
+  margin-left: 147px;
+  margin-right: 147px;
+}
+
+.galery-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.galery--item {
+}
+
+.galery--container {
+  width: 420px;
+}
+
+.galery-img {
+  margin-bottom: 62px;
+}
+
+.underimg {
+  display: block;
+
+  margin-bottom: 32px;
+
+  width: 64px;
+  height: 16px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #b4ad9e;
+}
+
+.heading {
+  margin-bottom: 40px;
+
+  width: 408px;
+  height: 40px;
+
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+
+  color: #626262;
+}
+
+.paragraph {
+  width: 420px;
+  height: 76px;
+
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #626262;
+}
+
+.galery--button {
+  display: block;
+
+  margin: 0 auto;
+
+  width: 165px;
+  height: 60px;
+
+  border: 1px solid #626262;
+  text-align: center;
+}
+
+.galery--button__text {
+  width: 68px;
+  height: 19px;
+
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #626262;
 }
