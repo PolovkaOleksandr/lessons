@@ -1,0 +1,61 @@
+/* створення змінних для подальшого використання,щоб швидко змінювати кольори на сайті */
+:root {
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --heading-color: #212121;
+  --background-color: #ffffff;
+  --team-color: #f5f4fa;
+  --black: #000000;
+  --hero--background: #2f303a;
+}
+/* підключення шрифту вручну */
+
+/* Ресет */
+body {
+  font-family: Roboto, sans-serif, Raleway;
+  box-sizing: border-box;
+  background-color: var(--background-color);
+  /* color: var(--text-color); */
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  /* color: var(--text-color); */
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* color: var(--text-color); */
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+a:hover {
+  cursor: pointer;
+  color: var(--accent-color);
+  transition: opacity 0.3;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Анімація */
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: #2196f3;
+}
