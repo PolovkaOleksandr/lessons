@@ -242,3 +242,70 @@ a {
   font-size: 70px;
   color: yellowgreen;
 }
+
+.ghost {
+  font-size: 70px;
+}
+
+.div {
+}
+
+.asd:hover {
+  background-color: red;
+}
+
+.div {
+  width: 200px;
+  height: 200px;
+  color: white;
+  padding: 10px;
+  text-align: right;
+}
+.green {
+  top: 120px;
+  left: 120px;
+  position: absolute;
+  z-index: 3;
+  background-color: green;
+}
+
+.red {
+  z-index: 2;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background-color: red;
+}
+
+.orange {
+  z-index: 1;
+  top: 80px;
+  left: 80px;
+  position: absolute;
+  background-color: orange;
+}
+
+.blue {
+  /* z-index: 800; не працює */
+  background-color: blue;
+}
+
+.hover {
+  position: relative;
+  background-color: red;
+  width: 50vw;
+  height: 100vh;
+  transform: translateX(-90%);
+  transition: transform 0.5s linear;
+}
+
+.hover:hover {
+  transform: translateX(0%);
+}
+
+.click {
+  position: absolute;
+  right: -10px;
+  top: 50vh;
+  rotate: 90deg;
+}
