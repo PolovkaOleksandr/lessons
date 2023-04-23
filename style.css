@@ -232,3 +232,13 @@ a {
   background: #2196f3;
   border-radius: 2px;
 }
+
+.smart {
+  font-size: 70px;
+  color: blue;
+}
+
+.env {
+  font-size: 70px;
+  color: yellowgreen;
+}
