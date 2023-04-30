@@ -262,27 +262,25 @@ a {
   text-align: right;
 }
 .green {
-  top: 120px;
-  left: 120px;
+  top: 500px;
+  left: 880px;
   position: absolute;
-  z-index: 3;
   background-color: green;
 }
 
 .red {
-  z-index: 2;
   position: absolute;
-  top: 40px;
-  left: 40px;
+  top: 300px;
+  left: 700px;
   background-color: red;
 }
 
 .orange {
   z-index: 1;
-  top: 80px;
-  left: 80px;
+  top: 400px;
+  left: 780px;
   position: absolute;
-  background-color: orange;
+  background-color: blueviolet;
 }
 
 .blue {
@@ -292,8 +290,8 @@ a {
 
 .hover {
   position: relative;
-  background-color: red;
-  width: 50vw;
+  background-color: #2196f3;
+  width: 30vw;
   height: 100vh;
   transform: translateX(-90%);
   transition: transform 0.5s linear;
@@ -308,4 +306,26 @@ a {
   right: -10px;
   top: 50vh;
   rotate: 90deg;
+}
+
+.list {
+  padding: 100px;
+}
+
+.list li {
+  margin-bottom: 50px;
+}
+
+body {
+  background-color: black;
+}
+.input {
+  width: 360px;
+  height: 50px;
+
+  padding-left: 15px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
