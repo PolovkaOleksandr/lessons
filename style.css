@@ -20,7 +20,7 @@ img {
   height: auto;
 }
 
-header {
+/* header {
   min-width: 320px;
   background-color: red;
 }
@@ -36,10 +36,69 @@ header {
   .img {
     max-width: 380px;
   }
+} */
+
+.header {
+  width: 480px;
+  height: 60px;
+  background: #ffffff;
+
+  padding: 16px 15px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-vh
-vw
-vmin
-vmax
+.burger {
+  width: 40px;
+  height: 40px;
+}
 
+.logo {
+  width: 134px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+
+  color: black;
+}
+
+.WEB {
+  color: #2196f3;
+}
+
+.nav {
+  display: none;
+}
+
+@media (min-width: 767px) {
+  .header {
+    width: 768px;
+    height: 80px;
+
+    background: #ffffff;
+
+    padding: 26px 15px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .logo {
+    margin-right: 90px;
+  }
+
+  .nav {
+    display: block;
+  }
+}
