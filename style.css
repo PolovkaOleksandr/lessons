@@ -19,3 +19,27 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+header {
+  min-width: 320px;
+  background-color: red;
+}
+
+@media (min-width: 767px) {
+  header {
+    background-color: blue;
+    min-width: 768px;
+  }
+}
+
+@media (max-width: 380px) {
+  .img {
+    max-width: 380px;
+  }
+}
+
+vh
+vw
+vmin
+vmax
+
