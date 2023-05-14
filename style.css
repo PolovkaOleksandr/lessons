@@ -20,6 +20,10 @@ img {
   height: auto;
 }
 
+body {
+  background-color: #ffffff;
+}
+
 /* header {
   min-width: 320px;
   background-color: red;
@@ -76,8 +80,15 @@ img {
   display: none;
 }
 
-@media (min-width: 767px) {
+.contcts {
+  display: none;
+}
+
+@media (min-width: 768px) {
   .header {
+    margin: 0 10px;
+    margin: 0 auto;
+
     width: 768px;
     height: 80px;
 
@@ -95,10 +106,81 @@ img {
   }
 
   .logo {
-    margin-right: 90px;
+    margin-right: 87px;
   }
 
   .nav {
     display: block;
+  }
+
+  .contcts {
+    display: block;
+  }
+
+  .nav-list {
+    display: flex;
+    margin-right: 95px;
+  }
+
+  .nav__list--item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  .contacts-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .nav-link {
+    display: block;
+    height: 16px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+  }
+
+  .contacts-link {
+    display: block;
+    height: 14px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    letter-spacing: 0.02em;
+
+    color: #757575;
+  }
+}
+
+/* доповни медіа правило */
+
+/* @media (min-width: 1600px) {
+} */
+
+@media (min-width: 500px) and (max-width: 767px) {
+  .header {
+    margin: 0 10px;
+    margin: 0 auto;
+
+    min-width: 500px;
+    max-width: 767px;
+
+    height: 80px;
+
+    background: red;
+
+    padding: 26px 15px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 }
